@@ -12,7 +12,7 @@ independent from w j given L. </br></br>
 The dataset is of tweets labeled with their actual geographic locations, split into a training set and a testing set. the dataset is restricted to a set of a dozen North American cities (Chicago, Philadelphia, etc.), so the task is to classify each tweet into one of twelve different categories.
 </br></br>
 The program accepts command line arguments like this:
-./geolocate.py training-file testing-file output-file
+__./geolocate.py training-file testing-file output-file__
 </br></br>
 The program should then load in the training file, estimate the needed probabilities to build a Bayesian
 model, and apply them to each tweet in the testing file, and then write the results into output-file. </br> </br>
